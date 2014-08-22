@@ -1,0 +1,46 @@
+{
+  "name": "deps-walk",
+  "description": "recursively walk the dependencies of files",
+  "version": "0.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "normalize/deps-walk",
+  "dependencies": {
+    "mz": "1",
+    "is-generator": "1",
+    "debug": "*",
+    "type-is": "1",
+    "path-is": "1",
+    "mime-types": "1",
+    "lru-cache-dummy": "1",
+    "composition": "1",
+    "deps-parse": "1",
+    "esprima-error-formatter": "1"
+  },
+  "devDependencies": {
+    "co": "3",
+    "istanbul-harmony": "0",
+    "mocha": "1"
+  },
+  "scripts": {
+    "test": "mocha --harmony-generators --reporter spec --bail test/index.js",
+    "test-cov": "node --harmony-generators ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- test/index.js",
+    "test-travis": "node --harmony-generators ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- test/index.js"
+  },
+  "main": "lib",
+  "files": ["lib"],
+  "keywords": [
+    "walk",
+    "dependency",
+    "js",
+    "css",
+    "html",
+    "tree",
+    "dependencies"
+  ]
+}
