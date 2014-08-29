@@ -23,6 +23,7 @@
     "esprima-error-formatter": "1"
   },
   "devDependencies": {
+    "esprima": "git://github.com/esnext/esprima#harmony-esnext",
     "co": "3",
     "istanbul-harmony": "0",
     "mocha": "1"
