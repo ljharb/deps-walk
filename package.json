@@ -1,7 +1,7 @@
 {
   "name": "deps-walk",
   "description": "recursively walk the dependencies of files",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
@@ -33,7 +33,9 @@
     "test-travis": "node --harmony-generators ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- test/index.js"
   },
   "main": "lib",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "walk",
     "dependency",
