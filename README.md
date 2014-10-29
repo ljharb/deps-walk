@@ -1,3 +1,4 @@
+Note: this is a mirror of the original repo for https://npmjs.com/deps-walk
 
 # deps-walk
 
