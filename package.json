@@ -11,22 +11,22 @@
   "license": "MIT",
   "repository": "normalize/deps-walk",
   "dependencies": {
-    "mz": "1",
+    "mz": "^2.7.0",
     "is-generator": "1",
     "debug": "*",
     "type-is": "1",
     "path-is": "1",
-    "mime-types": "1",
+    "mime-types": "^2.1.26",
     "lru-cache-dummy": "1",
-    "composition": "1",
-    "deps-parse": "1",
+    "composition": "^2.3.0",
+    "deps-parse": "^3.0.0",
     "esprima-error-formatter": "1"
   },
   "devDependencies": {
     "esprima": "git://github.com/esnext/esprima#harmony-esnext",
-    "co": "3",
+    "co": "^4.6.0",
     "istanbul-harmony": "0",
-    "mocha": "1"
+    "mocha": "^7.0.0"
   },
   "scripts": {
     "test": "mocha --harmony-generators --reporter spec --bail test/index.js",
