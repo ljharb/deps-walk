@@ -2,6 +2,8 @@ Note: this is a mirror of the original repo for https://npmjs.com/deps-walk
 
 # deps-walk
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ljharb/deps-walk.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
